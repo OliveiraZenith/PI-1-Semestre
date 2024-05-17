@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #A0EEC0;
+}
+
+.topnav, .main-header {
+  overflow: hidden;
+  background-color: #86CD82;
+  display: flex;
+  justify-content: center;
+  padding: 30px 0 0 0;
+  align-items: center;
+}
+
+.logo {
+  display: block;
+  margin-right: 110px;
+  padding: 25px 0;
+}
+
+.icones-menu {
+  width: 50px;
+  height: 50px;
+  border: 10px solid #FBFFA5;
+  border-radius: 50px;
+  background-color: #FBFFA5;
+}
+
+.icones-menu.active {
+  width: 50px;
+  height: 50px;
+  border: 10px solid #04aa6d;
+  border-radius: 50px;
+  background-color: #04aa6d;
+}
+
+.content-left {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.content-right {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.content-center {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.topnav a {
+  float: right;
+  color: #FBFFA5;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  margin-bottom: 40px;
+}
+
+.topnav p {
+  color: #FBFFA5;
+  text-align: center;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: #FBFFA5;
+}
+
+.myindex {
+  display: flex;
+  width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+  
+.myindex div {
+    width:50%;
+    float:left;
+}
+
+.myprodutos {
+    display: flex;
+   }
+   
+   .myprodutos div {
+    text-align: center;
+    align-items: center;
+    float:left;
+   }
+
+.mytosa {
+    display: flex;
+   }
+   
+   .mytosa div {
+    width: 33%;
+    float: left;
+   }
