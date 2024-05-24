@@ -8,7 +8,7 @@ body {
   overflow: hidden;
   background-color: #86CD82;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   padding: 30px 0 0 0;
   align-items: center;
 }
@@ -16,6 +16,8 @@ body {
 .logo {
   display: block;
   margin-right: 110px;
+  margin-left: 100px;
+  margin-top: -30px;
   padding: 25px 0;
 }
 
@@ -25,6 +27,7 @@ body {
   border: 10px solid #FBFFA5;
   border-radius: 50px;
   background-color: #FBFFA5;
+  
 }
 
 .icones-menu.active {
@@ -69,13 +72,15 @@ body {
 }
 
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #a0eec0;
   color: black;
+  border-radius: 30px;
 }
 
 .topnav a.active {
   background-color: #04AA6D;
   color: #FBFFA5;
+  border-radius: 30px;
 }
 
 .myindex {
