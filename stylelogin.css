@@ -9,7 +9,6 @@ body {
     background-color: #86CD82;
     display: flex;
     justify-content: space-between;
-    /* padding: 10px 0 0 0; */
     padding-top: 10px;
     padding-bottom: -200px;
   }
@@ -19,8 +18,10 @@ body {
     margin-right: 110px;
     margin-left: 100px;
     margin-top: -30px;
-    padding: 25px 0;
-  }
+    padding: 30px 0;
+    width: 200px; 
+    height: auto; 
+}
   
   .icones-menu {
     width: 50px;
