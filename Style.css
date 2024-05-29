@@ -45,7 +45,15 @@ body {
 
 .content-right {
   padding: 20px 0;
+  text-align: justify;
+  color: #666B6A;
+  font-size: 20px;
+}
+
+.titleIdex {
   text-align: center;
+  color: #666B6A;
+  font-size: 30px;
 }
 
 .content-center {
@@ -88,7 +96,7 @@ body {
   width: 1140px;
   margin-left: auto;
   margin-right: auto;
-  padding: 20px;
+  padding: 20px 0px 0px 0px;
 }
   
 .myindex div {
@@ -114,3 +122,61 @@ body {
     width: 33%;
     float: left;
    }
+
+.map {
+    padding: 0px; /* control the space for the gradient */
+    --g: content-box 50% 50%/200% 200% no-repeat;
+    -webkit-mask:
+      linear-gradient(#000 0 0),
+      linear-gradient(calc(135deg + var(--a,0deg)),#000 50.1%,#0000 0) var(--g),
+      linear-gradient(calc(-45deg + var(--a,0deg)),#000 50.1%,#0000 0) var(--g);
+    -webkit-mask-composite: xor, source-over;
+            mask-composite: exclude, add;
+    transition: .5s;
+    cursor: pointer;
+  }
+  iframe:hover {
+    -webkit-mask-position: 0% 0%,100% 100%;
+  }
+  
+  iframe.alt {
+    --a: 90deg
+  }
+ 
+  iframe.alt:hover {
+    -webkit-mask-position: 100% 0%,0% 100%;
+  }
+  
+  
+  .container{
+    position: relative;
+  }
+  
+  .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    box-align: center;
+    padding-left: 25px;
+  }
+
+.textHover {
+  color:  #666B6A;
+  font-size: 25px;
+  margin-top: 0px;
+}
+
+.logoDiv{
+  text-align: right;
+  padding-right: 50px;
+}
+
+.logoIcon{
+  width: 2%;
+  padding-left: 10px;
+}
+
+.link{
+  text-decoration: none;
+}
