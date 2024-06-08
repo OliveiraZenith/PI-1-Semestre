@@ -1,12 +1,13 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #A0EEC0;
+  background-color: #a0eec0;
 }
 
-.topnav, .main-header {
+.topnav,
+.main-header {
   overflow: hidden;
-  background-color: #86CD82;
+  background-color: #86cd82;
   display: flex;
   justify-content: space-between;
   padding: 30px 0 0 0;
@@ -24,10 +25,9 @@ body {
 .icones-menu {
   width: 50px;
   height: 50px;
-  border: 10px solid #FBFFA5;
+  border: 10px solid #fbffa5;
   border-radius: 50px;
-  background-color: #FBFFA5;
-  
+  background-color: #fbffa5;
 }
 
 .icones-menu.active {
@@ -46,13 +46,13 @@ body {
 .content-right {
   padding: 20px 0;
   text-align: justify;
-  color: #666B6A;
+  color: #666b6a;
   font-size: 20px;
 }
 
 .titleIdex {
   text-align: center;
-  color: #666B6A;
+  color: #666b6a;
   font-size: 30px;
 }
 
@@ -63,7 +63,7 @@ body {
 
 .topnav a {
   float: right;
-  color: #FBFFA5;
+  color: #fbffa5;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -72,7 +72,7 @@ body {
 }
 
 .topnav p {
-  color: #FBFFA5;
+  color: #fbffa5;
   text-align: center;
   font-weight: 500;
   text-decoration: none;
@@ -86,8 +86,8 @@ body {
 }
 
 .topnav a.active {
-  background-color: #04AA6D;
-  color: #FBFFA5;
+  background-color: #04aa6d;
+  color: #fbffa5;
   border-radius: 30px;
 }
 
@@ -98,85 +98,83 @@ body {
   margin-right: auto;
   padding: 20px 0px 0px 0px;
 }
-  
+
 .myindex div {
-    width:50%;
-    float:left;
+  width: 50%;
+  float: left;
 }
 
 .myprodutos {
-    display: flex;
-   }
-   
-   .myprodutos div {
-    text-align: center;
-    align-items: center;
-    float:left;
-   }
+  display: flex;
+}
+
+.myprodutos div {
+  text-align: center;
+  align-items: center;
+  float: left;
+}
 
 .mytosa {
-    display: flex;
-   }
-   
-   .mytosa div {
-    width: 33%;
-    float: left;
-   }
+  display: flex;
+}
+
+.mytosa div {
+  width: 33%;
+  float: left;
+}
 
 .map {
-    padding: 0px; /* control the space for the gradient */
-    --g: content-box 50% 50%/200% 200% no-repeat;
-    -webkit-mask:
-      linear-gradient(#000 0 0),
-      linear-gradient(calc(135deg + var(--a,0deg)),#000 50.1%,#0000 0) var(--g),
-      linear-gradient(calc(-45deg + var(--a,0deg)),#000 50.1%,#0000 0) var(--g);
-    -webkit-mask-composite: xor, source-over;
-            mask-composite: exclude, add;
-    transition: .5s;
-    cursor: pointer;
-  }
-  iframe:hover {
-    -webkit-mask-position: 0% 0%,100% 100%;
-  }
-  
-  iframe.alt {
-    --a: 90deg
-  }
- 
-  iframe.alt:hover {
-    -webkit-mask-position: 100% 0%,0% 100%;
-  }
-  
-  
-  .container{
-    position: relative;
-  }
-  
-  .background {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    box-align: center;
-    padding-left: 25px;
-  }
+  padding: 0px; /* control the space for the gradient */
+  --g: content-box 50% 50%/200% 200% no-repeat;
+  -webkit-mask: linear-gradient(#000 0 0),
+    linear-gradient(calc(135deg + var(--a, 0deg)), #000 50.1%, #0000 0) var(--g),
+    linear-gradient(calc(-45deg + var(--a, 0deg)), #000 50.1%, #0000 0) var(--g);
+  -webkit-mask-composite: xor, source-over;
+  mask-composite: exclude, add;
+  transition: 0.5s;
+  cursor: pointer;
+}
+iframe:hover {
+  -webkit-mask-position: 0% 0%, 100% 100%;
+}
+
+iframe.alt {
+  --a: 90deg;
+}
+
+iframe.alt:hover {
+  -webkit-mask-position: 100% 0%, 0% 100%;
+}
+
+.container {
+  position: relative;
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  box-align: center;
+  padding-left: 25px;
+}
 
 .textHover {
-  color:  #666B6A;
+  color: #666b6a;
   font-size: 25px;
   margin-top: 0px;
 }
 
-.logoDiv{
+.logoDiv {
   text-align: right;
   padding-right: 50px;
 }
 
-.logoIcon{
+.logoIcon {
   width: 2%;
   padding-left: 10px;
 }
 
-.link{
+.link {
   text-decoration: none;
 }

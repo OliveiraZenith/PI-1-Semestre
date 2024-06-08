@@ -1,33 +1,216 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>CãoPany - PetShop</title>
-<link rel="icon" type="image/x-icon" href="img/Icones Barra de Navegação/icon.ico">
-<link rel="stylesheet" href="Style.css">
-</head>
-<body>
-
-
-  <div class="main-header">
-    <div class="logo">
-      <img src="img/Icones Barra de Navegação/Logo.png" style="width:330px;">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CãoPany - PetShop</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="img/Icones Barra de Navegação/icon.ico"
+    />
+    <link rel="stylesheet" href="styleprodutos.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="main-header">
+      <div class="logo">
+        <img
+          src="img/Icones Barra de Navegação/Logo.png"
+          style="width: 330px"
+        />
+      </div>
+      <div class="topnav">
+        <a href="index.html"
+          ><img
+            src="img/Icones Barra de Navegação/cat3.png"
+            class="icones-menu"
+          />
+          <p>Home</p></a
+        >
+        <a href="Login.html"
+          ><img
+            src="img/Icones Barra de Navegação/gir3.png"
+            class="icones-menu"
+          />
+          <p>Login</p></a
+        >
+        <a href="Adote.html"
+          ><img
+            src="img/Icones Barra de Navegação/bear3.png"
+            class="icones-menu"
+          />
+          <p>Adote</p></a
+        >
+        <a class="active" href="Produtos.html"
+          ><img
+            src="img/Icones Barra de Navegação/horse3.png"
+            class="icones-menu"
+          />
+          <p>Produtos</p></a
+        >
+        <a href="Banho e Tosa.html"
+          ><img
+            src="img/Icones Barra de Navegação/dog3.png"
+            class="icones-menu"
+          />
+          <p>Banho e Tosa</p></a
+        >
+      </div>
     </div>
-    <div class="topnav">  
-      <a href="index.html"><img src="img/Icones Barra de Navegação/cat3.png" class="icones-menu"><p>Home</p></a>
-      <a href="Login.html"><img src="img/Icones Barra de Navegação/gir3.png" class="icones-menu"><p>Login</p></a>
-      <a href="Adote.html"><img src="img/Icones Barra de Navegação/bear3.png" class="icones-menu"><p>Adote</p></a>
-      <a class="active" href="Produtos.html"><img src="img/Icones Barra de Navegação/horse3.png" class="icones-menu"><p>Produtos</p></a>
-      <a href="Banho e Tosa.html"><img src="img/Icones Barra de Navegação/dog3.png" class="icones-menu"><p>Banho e Tosa</p></a>
+
+    <div class="myprodutos">
+      <h2>
+        PRODUTOS PARA<br />
+        SEU PET
+      </h2>
     </div>
-  </div>
 
-<div class="myprodutos">
-<h2>Produtos para seu Pet</h2>
-</div>
+    <div class="wrap">
+      <div class="search">
+        <input type="text" class="searchTerm" placeholder="Buscar Produto..." />
+        <button type="submit" class="searchButton">
+          <i class="fa fa-search"></i>
+        </button>
+      </div>
+      <button class="cartButton">
+        <i class="fa fa-shopping-cart"></i>
+      </button>
+    </div>
 
+    <div class="product-section">
+      <h3>Banho</h3>
+      <ul class="product-list">
+        <li class="product-item" data-price="R$ 20,00">
+          <img src="img/imagens-produtos/shampoo.png" alt="Shampoo" />
+          Shampoo
+        </li>
+        <li class="product-item" data-price="R$ 30,00">
+          <img src="img/imagens-produtos/shampoo.png" alt="Shampoo" />
+          Shampoo
+        </li>
+        <li class="product-item" data-price="R$ 40,00">
+          <img src="img/imagens-produtos/shampoo.png" alt="Shampoo" />
+          Shampoo
+        </li>
+        <li class="product-item" data-price="R$ 50,00">
+          <img src="img/imagens-produtos/shampoo.png" alt="Shampoo" />
+          Shampoo
+        </li>
+        <li class="product-item" data-price="R$ 60,00">
+          <img src="img/imagens-produtos/shampoo.png" alt="Shampoo" />
+          Shampoo
+        </li>
+      </ul>
+    </div>
 
+    <div class="product-section">
+      <h3>Alimentação</h3>
+      <ul class="product-list">
+        <li class="product-item" data-price="R$ 70,00">
+          <img src="img/imagens-produtos/petisco.png" alt="Petisco" />
+          Petisco
+        </li>
+        <li class="product-item" data-price="R$ 80,00">
+          <img src="img/imagens-produtos/petisco.png" alt="Petisco" />
+          Petisco
+        </li>
+        <li class="product-item" data-price="R$ 90,00">
+          <img src="img/imagens-produtos/petisco.png" alt="Petisco" />
+          Petisco
+        </li>
+        <li class="product-item" data-price="R$ 100,00">
+          <img src="img/imagens-produtos/petisco.png" alt="Petisco" />
+          Petisco
+        </li>
+        <li class="product-item" data-price="R$ 110,00">
+          <img src="img/imagens-produtos/petisco.png" alt="Petisco" />
+          Petisco
+        </li>
+      </ul>
+    </div>
 
-</body>
+    <div class="product-section">
+      <h3>Diversão</h3>
+      <ul class="product-list">
+        <li class="product-item" data-price="R$ 120,00">
+          <img src="img/imagens-produtos/dog.png" alt="Brinquedo" />
+          Brinquedo
+        </li>
+        <li class="product-item" data-price="R$ 130,00">
+          <img src="img/imagens-produtos/dog.png" alt="Brinquedo" />
+          Brinquedo
+        </li>
+        <li class="product-item" data-price="R$ 140,00">
+          <img src="img/imagens-produtos/dog.png" alt="Brinquedo" />
+          Brinquedo
+        </li>
+        <li class="product-item" data-price="R$ 150,00">
+          <img src="img/imagens-produtos/dog.png" alt="Brinquedo" />
+          Brinquedo
+        </li>
+        <li class="product-item" data-price="R$ 160,00">
+          <img src="img/imagens-produtos/dog.png" alt="Brinquedo" />
+          Brinquedo
+        </li>
+      </ul>
+    </div>
+
+    <div id="product-modal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p id="modal-text"></p>
+      </div>
+    </div>
+
+    <footer>
+      <div class="social-icons">
+        <a
+          href="https://wa.me/(16)999999999"
+          target="_blank"
+          class="fab fa-whatsapp"
+        ></a>
+        <a
+          href="https://www.facebook.com"
+          target="_blank"
+          class="fab fa-facebook"
+        ></a>
+        <a
+          href="https://www.instagram.com"
+          target="_blank"
+          class="fab fa-instagram"
+        ></a>
+        <a
+          href="https://www.twitter.com"
+          target="_blank"
+          class="fab fa-twitter"
+        ></a>
+      </div>
+    </footer>
+
+    <script>
+      var modal = document.getElementById("product-modal");
+      var modalText = document.getElementById("modal-text");
+      var span = document.getElementsByClassName("close")[0];
+      document.querySelectorAll(".product-item").forEach((item) => {
+        item.addEventListener("click", () => {
+          var price = item.getAttribute("data-price");
+          var imgSrc = item.querySelector("img").src;
+          modalText.innerHTML = `<img src="${imgSrc}" style="width: 100px; height: auto; margin-bottom: 10px;"><br>Preço: ${price}`;
+          modal.style.display = "block";
+        });
+      });
+      span.onclick = function () {
+        modal.style.display = "none";
+      };
+      window.onclick = function (event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+        }
+      };
+    </script>
+  </body>
 </html>

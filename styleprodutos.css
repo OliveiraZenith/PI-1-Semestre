@@ -1,0 +1,273 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #a0eec0;
+}
+
+.topnav,
+.main-header {
+  overflow: hidden;
+  background-color: #86cd82;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0 0 0;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: -200px;
+}
+
+.logo {
+  display: block;
+  margin-right: 110px;
+  margin-left: 100px;
+  margin-top: -30px;
+  padding: 30px 0;
+  width: 200px;
+  height: auto;
+}
+
+.icones-menu {
+  width: 50px;
+  height: 50px;
+  border: 10px solid #fbffa5;
+  border-radius: 50px;
+  background-color: #fbffa5;
+}
+
+.icones-menu.active {
+  width: 50px;
+  height: 50px;
+  border: 10px solid #04aa6d;
+  border-radius: 50px;
+  background-color: #04aa6d;
+}
+
+.content-left {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.content-right {
+  padding: 20px 0;
+  text-align: justify;
+  color: #666b6a;
+  font-size: 20px;
+}
+
+.titleIdex {
+  text-align: center;
+  color: #666b6a;
+  font-size: 30px;
+}
+
+.content-center {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.topnav a {
+  float: right;
+  color: #fbffa5;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  margin-bottom: 40px;
+}
+
+.topnav p {
+  color: #fbffa5;
+  text-align: center;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #a0eec0;
+  color: black;
+  border-radius: 30px;
+}
+
+.topnav a.active {
+  background-color: #04aa6d;
+  color: #fbffa5;
+  border-radius: 30px;
+}
+
+.myprodutos {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.myprodutos h2 {
+  text-align: center;
+  color: #666b6a;
+}
+
+.wrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.search {
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #04aa6d;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9dbfaf;
+}
+
+.searchTerm:focus {
+  color: #04aa6d;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #04aa6d;
+  background: #04aa6d;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.product-section {
+  margin: 20px;
+  padding-top: 20px;
+}
+
+.product-section h3 {
+  text-align: center;
+  color: #666b6a;
+}
+
+.product-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.product-item {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  width: 150px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.product-item img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.product-item:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 600px;
+  border-radius: 8px;
+  text-align: center;
+  animation: modalopen 0.5s;
+}
+
+@keyframes modalopen {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.cartButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #04aa6d;
+  background: #04aa6d;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s;
+}
+
+.cartButton:hover {
+  transform: scale(1.1);
+}
+
+footer {
+  padding: 20px 0;
+  text-align: right;
+  margin-top: 20px;
+}
+
+.social-icons a {
+  color: #666b6a;
+  margin: 0 10px;
+  font-size: 20px;
+  text-decoration: none;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.social-icons a:hover {
+  color: #04aa6d;
+  transform: scale(1.2);
+}
