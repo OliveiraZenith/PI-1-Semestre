@@ -39,7 +39,15 @@ body {
 }
 
 .content-left {
-  padding: 20px 0;
+  background-color: #fff;
+  padding-bottom: 40px;
+  padding-top: 20px;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 30px;
+  box-shadow: #111;
   text-align: center;
 }
 
@@ -57,7 +65,15 @@ body {
 }
 
 .content-center {
-  padding: 20px 0;
+  background-color: #fff;
+  padding-bottom: 40px;
+  padding-top: 20px;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 30px;
+  box-shadow: #111;
   text-align: center;
 }
 

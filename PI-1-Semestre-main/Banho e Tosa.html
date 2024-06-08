@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CãoPany - PetShop</title>
+<link rel="icon" type="image/x-icon" href="img/Icones Barra de Navegação/icon.ico">
+<link rel="stylesheet" href="Style.css">
+</head>
+<body>
+
+
+  <div class="main-header">
+    <div class="logo">
+      <img src="img/Icones Barra de Navegação/Logo.png" style="width:330px;">
+    </div>
+    <div class="topnav">  
+      <a href="index.html"><img src="img/Icones Barra de Navegação/cat3.png" class="icones-menu"><p>Home</p></a>
+      <a href="Login.html"><img src="img/Icones Barra de Navegação/gir3.png" class="icones-menu"><p>Login</p></a>
+      <a href="Adote.html"><img src="img/Icones Barra de Navegação/bear3.png" class="icones-menu"><p>Adote</p></a>
+      <a href="Produtos.html"><img src="img/Icones Barra de Navegação/horse3.png" class="icones-menu"><p>Produtos</p></a>
+      <a class="active" href="Banho e Tosa.html"><img src="img/Icones Barra de Navegação/dog3.png" class="icones-menu"><p>Banho e Tosa</p></a>
+    </div>
+  </div>
+
+<div class="mytosa">
+
+<div class="content-left">
+  <h2>Selecione o dia do agendamento:</h2>
+  <form action="/action_page.php">
+    <label for="agendamento">Selecione o dia:</label><br>
+    <input type="date" id="agendamento" name="agendamento"><br><br>
+    <label for="appt">Selecione a hora:</label><br>
+    <input type="time" id="appt" name="appt">
+  </form>
+</div>
+
+<div class="content-center">
+  <h2>Valores</h2>
+  <li>Banho Pequeno Porte : R$ 30,00</li>
+  <li>Banho Médio Porte: R$ 40,00</li>
+  <li>Banho Grande Porte: R$ 50,00</li>
+  <li>Tosa Pequeno Porte: R$ 40,00</li>
+  <li>Tosa Médio Porte : R$ 50,00</li>
+  <li>Tosa Grande Porte: R$ 60,00</li>
+  <li>Banho e Tosa Pequeno: R$ 60,00</li>
+  <li>Banho e Tosa Médio: R$ 70,00</li>
+  <li>Banho e Tosa Grande: R$ 80,00</li>
+  <li>Banho de Gato: R$ 25,00</li>
+  <li>Tosa de Gato: R$ 35,00</li>
+  <li>Banho e Tosa de Gato: R$ 50,00</li>
+</div>
+
+<div class="content-right">
+  <h2>Sobre o seu Pet</h2>
+  <form>
+    <label for="petname">Nome Pet:</label><br>
+    <input type="text" id="petname" name="petname"><br><br>
+    <label for="especie">Espécie:</label><br>
+    <input type="text" id="especie" name="especie"><br><br>
+    <label for="raca">Raça:</label><br>
+    <input type="text" id="raca" name="raca"><br><br>
+    <label for="restrict">Restrição:</label><br>
+    <input type="text" id="restrict" name="restrict"><br>
+    <input type="button" onclick="alert('Agendamento Realizado')" value="Agendar">
+    <input type="reset" value="Limpar">
+  </form>
+</div>
+</div>
+</body>
+
+</html>
