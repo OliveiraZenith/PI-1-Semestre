@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #A0EEC0;
+  }
+
+  .topnav, .main-header {
+    overflow: hidden;
+    background-color: #86CD82;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0 0 0;
+    align-items: center;
+  }
+
+  .logo {
+    display: block;
+    margin-right: 110px;
+    margin-left: 100px;
+    margin-top: -30px;
+    padding: 25px 0;
+  }
+  
+  .icones-menu {
+    width: 50px;
+    height: 50px;
+    border: 10px solid #FBFFA5;
+    border-radius: 50px;
+    background-color: #FBFFA5;
+    
+  }
+  
+  .icones-menu.active {
+    width: 50px;
+    height: 50px;
+    border: 10px solid #04aa6d;
+    border-radius: 50px;
+    background-color: #04aa6d;
+  }
+  
+  .content-left {
+     padding: 40px 0;
+    text-align: justify;
+    color: #666B6A;
+    font-size: 20px;
+  }
+  
+  .content-right {
+    padding: 40px 0;
+    text-align: justify;
+    color: #666B6A;
+    font-size: 20px;
+  }
+  
+  .titleIdex {
+    text-align: center;
+    color: #666B6A;
+    font-size: 30px;
+  }
+  
+  .content-center {
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .topnav a {
+    float: right;
+    color: #FBFFA5;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-bottom: 40px;
+  }
+  
+  .topnav p {
+    color: #FBFFA5;
+    text-align: center;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #a0eec0;
+    color: black;
+    border-radius: 30px;
+  }
+  
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: #FBFFA5;
+    border-radius: 30px;
+  }
+
+  .myadote {
+    display: flex;
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 0px 0px 0px;
+  }
+    
+  .myadote div {
+      width:50%;
+      float:left;
+  }
+
+  .photo-left {
+    padding: 40px 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+  }
+
+  .photo-right {
+    padding: 40px 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+  }
+
+  a:link {
+    color:#04AA6D;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: #04AA6D;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #FBFFA5;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  a:active {
+    color: #666B6A;
+    background-color: transparent;
+    text-decoration: none;
+  }
