@@ -8,7 +8,7 @@
 
 
 * **Ana Laura Lis Oliveira** - *Página Home/Documentação* - [OliveiraZenith](https://github.com/OliveiraZenith)
-* **Diogo Guimarães Ramos** - *Página Banho e Tosa/Documentação* - [Diloko](https://github.com/Diloko)
+* **Diogo Guimarães Ramos** - *Página base com menu topnav/Página Banho e Tosa/Documentação* - [Diloko](https://github.com/Diloko)
 * **Guilherme Heitor Oliveira Barcelos** - *Página Adote/Documentação* - [GuilhermeHeitorB](https://github.com/GuilhermeHeitorB)
 * **Héricles Robert Mendes** - *Páginas Login e Acesse/Documentação/Icones Barra de Navegação* - [herixcx](https://github.com/herixcx)
 * **João Paulo Teixeira Lopes** - *Página Produtos/Documentação* - [joaop-dev](https://github.com/joaop-dev)
