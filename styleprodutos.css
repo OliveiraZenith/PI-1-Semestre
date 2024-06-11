@@ -9,11 +9,11 @@ body {
 .topnav,
 .main-header {
   overflow: hidden;
-  background-color: #86cd82;
+  background-color: #86CD82;
   display: flex;
   justify-content: space-between;
-  padding-top: 10px;
-  padding-bottom: -200px;
+  padding: 30px 0 0 0;
+  align-items: center;
 }
 
 .logo {
@@ -251,11 +251,7 @@ body {
   transform: scale(1.1);
 }
 
-footer {
-  padding: 20px 0;
-  text-align: right;
-  margin-top: 20px;
-}
+
 
 .social-icons a {
   color: #666b6a;
