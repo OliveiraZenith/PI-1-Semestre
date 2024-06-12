@@ -20,12 +20,12 @@
 
 ## 📸 Screenshots
 
-![acesse1](https://github.com/OliveiraZenith/PI-1-Semestre/assets/162808394/e2677b21-e6aa-4fde-a12c-68e5dc1ab84d)
-![home1](https://github.com/OliveiraZenith/PI-1-Semestre/assets/162808394/17469f2e-6a62-413b-bb7a-c6febf890595)
-![login1](https://github.com/OliveiraZenith/PI-1-Semestre/assets/162808394/f7c7624a-c975-4799-8340-5e1340f6ec93)
-![adote1](https://github.com/OliveiraZenith/PI-1-Semestre/assets/162808394/e433b645-caab-40bb-a4f4-36e0a5930462)
-![produtos1](https://github.com/OliveiraZenith/PI-1-Semestre/assets/162808394/6d25f15e-5634-465e-888d-5e9da297671a)
-![banho1](https://github.com/OliveiraZenith/PI-1-Semestre/assets/162808394/6d4c88c1-b4ec-4b6b-9358-0e0aa282e5e5)
+![acesse1](https://github.com/OliveiraZenith/PI-1-Semestre/blob/main/img/screenshots/acesse1.png)
+![home1](https://github.com/OliveiraZenith/PI-1-Semestre/blob/main/img/screenshots/home1.png)
+![login1](https://github.com/OliveiraZenith/PI-1-Semestre/blob/main/img/screenshots/login1.png)
+![adote1](https://github.com/OliveiraZenith/PI-1-Semestre/blob/main/img/screenshots/adote1.png)
+![produtos1](https://github.com/OliveiraZenith/PI-1-Semestre/blob/main/img/screenshots/produtos1.png)
+![banho1](https://github.com/OliveiraZenith/PI-1-Semestre/blob/main/img/screenshots/banho1.png)
 
 
 ## 🎁 Expressões de gratidão
