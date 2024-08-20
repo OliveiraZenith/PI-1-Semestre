@@ -6,24 +6,32 @@ body {
   background-color: #a0eec0;
 }
 
-.topnav,
+/*Nav*/
+
 .main-header {
   overflow: hidden;
-  background-color: #86CD82;
+  background-color: #86cd82;
   display: flex;
   justify-content: space-between;
-  padding: 30px 0 0 0;
+  padding-top: 2rem;
   align-items: center;
+  list-style-type: none;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #86cd82;
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  list-style-type: none;
+  padding-right: 3rem;
 }
 
 .logo {
-  display: block;
-  margin-right: 110px;
-  margin-left: 100px;
-  margin-top: -30px;
-  padding: 30px 0;
-  width: 200px;
-  height: auto;
+  display: flex;
+  margin-right: auto;
+  padding: 0 1rem 2rem 5rem;
 }
 
 .icones-menu {
@@ -36,34 +44,12 @@ body {
 
 .icones-menu.active {
   width: 50px;
-  height: 30px;
-  border: 1px solid #04aa6d;
+  height: 50px;
+  border: 10px solid #04aa6d;
   border-radius: 50px;
   background-color: #04aa6d;
 }
 
-.content-left {
-  padding: 20px 0;
-  text-align: center;
-}
-
-.content-right {
-  padding: 20px 0;
-  text-align: justify;
-  color: #666b6a;
-  font-size: 20px;
-}
-
-.titleIdex {
-  text-align: center;
-  color: #666b6a;
-  font-size: 30px;
-}
-
-.content-center {
-  padding: 20px 0;
-  text-align: center;
-}
 
 .topnav a {
   float: right;
@@ -94,6 +80,8 @@ body {
   color: #fbffa5;
   border-radius: 30px;
 }
+
+/*Nav end*/
 
 .myprodutos {
   display: flex;
