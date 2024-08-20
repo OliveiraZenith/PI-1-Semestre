@@ -1,41 +1,55 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>CãoPany - PetShop</title>
-<link rel="icon" type="image/x-icon" href="img/Icones Barra de Navegação/icon.ico">
-<link rel="stylesheet" href="stylebanho.css">
-<link
-rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
-/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CãoPany - PetShop</title>
+  <link rel="icon" type="image/x-icon" href="img/Icones Barra de Navegação/icon.ico">
+  <link rel="stylesheet" href="stylebanho.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
 </head>
+
 <body>
   <nav class="main-header">
     <div class="logo">
       <img src="img/Icones Barra de Navegação/Logo.png" style="width:330px;">
     </div>
-    <ul class="topnav">  
-      <li><a href="home.html"><img src="img/Icones Barra de Navegação/cat3.png" class="icones-menu"><p>Home</p></a></li>
-      <li><a href="Login.html"><img src="img/Icones Barra de Navegação/gir3.png" class="icones-menu"><p>Login</p></a></li>
-      <li><a href="Adote.html"><img src="img/Icones Barra de Navegação/bear3.png" class="icones-menu"><p>Adote</p></a></li>
-      <li><a href="Produtos.html"><img src="img/Icones Barra de Navegação/horse3.png" class="icones-menu"><p>Produtos</p></a></li>
-      <li><a class="active" href="Banho e Tosa.html"><img src="img/Icones Barra de Navegação/dog3.png" class="icones-menu"><p>Banho e Tosa</p></a></li>
+    <ul class="topnav">
+      <li><a href="home.html"><img src="img/Icones Barra de Navegação/cat3.png" class="icones-menu">
+          <p>Home</p>
+        </a></li>
+      <li><a href="Login.html"><img src="img/Icones Barra de Navegação/gir3.png" class="icones-menu">
+          <p>Login</p>
+        </a></li>
+      <li><a href="Adote.html"><img src="img/Icones Barra de Navegação/bear3.png" class="icones-menu">
+          <p>Adote</p>
+        </a></li>
+      <li><a href="Produtos.html"><img src="img/Icones Barra de Navegação/horse3.png" class="icones-menu">
+          <p>Produtos</p>
+        </a></li>
+      <li><a class="active" href="Banho e Tosa.html"><img src="img/Icones Barra de Navegação/dog3.png"
+            class="icones-menu">
+          <p>Banho e Tosa</p>
+        </a></li>
     </ul>
   </nav>
 
   <main class="mytosa">
 
-    <div class="content-left">
-      <h2>Selecione o dia do agendamento:</h2>
-      <form action="/action_page.php">
-        <label for="agendamento">Selecione o dia:</label><br>
-        <input class="inputDay" type="date" id="agendamento" name="agendamento"><br><br>
-        <label for="appt">Selecione a hora:</label><br>
-        <input class="inputTime" type="time" id="appt" name="appt">
-      </form>
-    </div>
+    <form action="/action_page.php" class="content-left">
+      <fieldset>
+        <legend>Selecione o dia do agendamento:</legend>
+        <p>
+          <label for="agendamento">Selecione o dia:</label><br>
+          <input class="inputDay" type="text" id="agendamento" name="agendamento" placeholder="dd/mm/aa">
+        </p>
+        <p>
+          <label for="appt">Selecione a hora:</label><br>
+          <input class="inputTime" type="text" id="appt" name="appt" placeholder="00:00">
+        </p>
+      </fieldset>
+    </form>
 
     <div class="content-center">
       <h2>Valores</h2>
@@ -57,45 +71,38 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.mi
       </div>
     </div>
 
-    <div class="content-right">
-      <h2>Sobre o seu Pet</h2>
-      <form>
-        <label for="petname"></label><br>
-        <input type="text" id="petname" name="petname" placeholder="Nome do Pet"><br><br>
-        <label for="especie"></label><br>
-        <input type="text" id="especie" name="especie" placeholder="Espécie"><br><br>
-        <label for="raca"></label><br>
-        <input type="text" id="raca" name="raca" placeholder="Raça"><br><br>
-        <label for="restrict"></label><br>
-        <input type="text" id="restrict" name="restrict" placeholder="Restrição"><br>
+    <form class="content-right">
+      <fieldset>
+        <legend>Sobre o seu Pet</legend>
+        <p>
+          <label for="petname"></label>
+          <input type="text" id="petname" name="petname" placeholder="Nome do Pet">
+        </p>
+        <p>
+          <label for="especie"></label>
+          <input type="text" id="especie" name="especie" placeholder="Espécie">
+        </p>
+        <p>
+          <label for="raca"></label>
+          <input type="text" id="raca" name="raca" placeholder="Raça">
+        </p>
+        <p>
+          <label for="restrict"></label>
+          <input type="text" id="restrict" name="restrict" placeholder="Restrição">
+        </p>
         <input type="button" onclick="alert('Agendamento Realizado')" value="Agendar" class="buttonAdd">
         <input type="reset" value="Limpar" class="buttonClear">
-      </form>
-    </div>
+      </fieldset>
+    </form>
+
   </main>
 
   <footer>
     <div class="social-icons">
-      <a
-        href="https://wa.me/(16)999999999"
-        target="_blank"
-        class="fab fa-whatsapp"
-      ></a>
-      <a
-        href="https://www.facebook.com"
-        target="_blank"
-        class="fab fa-facebook"
-      ></a>
-      <a
-        href="https://www.instagram.com"
-        target="_blank"
-        class="fab fa-instagram"
-      ></a>
-      <a
-        href="https://www.twitter.com"
-        target="_blank"
-        class="fab fa-twitter"
-      ></a>
+      <a href="https://wa.me/(16)999999999" target="_blank" class="fab fa-whatsapp"></a>
+      <a href="https://www.facebook.com" target="_blank" class="fab fa-facebook"></a>
+      <a href="https://www.instagram.com" target="_blank" class="fab fa-instagram"></a>
+      <a href="https://www.twitter.com" target="_blank" class="fab fa-twitter"></a>
     </div>
   </footer>
 </body>

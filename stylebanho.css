@@ -1,5 +1,7 @@
 body {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
   background-color: #a0eec0;
 }
@@ -77,7 +79,6 @@ body {
   color: #fbffa5;
   border-radius: 30px;
 }
-
 /*end nav*/
 
 .mytosa {
@@ -135,44 +136,90 @@ body {
   margin: 0 auto;
 }
 
+
+/*forms*/
+fieldset {
+  border: none;
+}
+
+legend {
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 20px 0 0;
+}
+
 input {
-  background-color: #CCCCCC;
-  border: 1px solid  #539e7441;
-  color: #666B6A;
-  box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 2px -1px;
-  text-shadow: 0 1px 0 rgba(122, 122, 122, 0.85);
-  padding: 10px 0 10px 5px;
+  color: #fff;
+  background-color: #cccccc;
+  padding: 6px 12px;
   font-size: 14px;
-}
-
-.inputDay {
-  margin-top: 5px;
-  padding: 5px 15px;
-}
-
-.inputTime {
-  margin-top: 5px;
-  padding: 5px 35px;
+  font-weight: normal;
+  border: 0px solid #90c679;
+  border: 0px solid #90c679;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out 0.15s,
+    box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  border-right: 10px;
+  outline: none;
+  border-color: #90c679;
+  box-shadow: 0 0 2px #90c679;
 }
 
 .buttonAdd {
   margin-top: 5px;
-  padding: 3px 15px;
-  color: #ffffff;
-  background-color: #86CD82;
-  font-weight: bold;
+  padding: 0.7rem 2rem;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 2px -1px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 2px -1px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 2px -1px;
+  text-shadow: 0 1px 0 rgba(122, 122, 122, 0.85);
+  transition: background 500ms ease-in-out 0s;
+  -webkit-transition: background 500ms ease-in-out 0s;
+  -moz-transition: background 500ms ease-in-out 0s;
+  -o-transition: background 500ms ease-in-out 0s;
+  -ms-transition: background 500ms ease-in-out 0s;
+  background-color: #90c679;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 30px;
+  font-family: "Arimo", sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
 .buttonClear {
   margin-top: 5px;
-  padding: 3px 20px;
-  color: #ffffff;
-  background-color: #86CD82;
-  font-weight: bold;
+  padding: 0.7rem 2.2rem;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 2px -1px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 2px -1px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 2px -1px;
+  text-shadow: 0 1px 0 rgba(122, 122, 122, 0.85);
+  transition: background 500ms ease-in-out 0s;
+  -webkit-transition: background 500ms ease-in-out 0s;
+  -moz-transition: background 500ms ease-in-out 0s;
+  -o-transition: background 500ms ease-in-out 0s;
+  -ms-transition: background 500ms ease-in-out 0s;
+  background-color: #90c679;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 30px;
+  font-family: "Arimo", sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
+.buttonAdd:hover {
+  background-color: #111;
+}
 
+.buttonClear:hover {
+  background-color: #111;
+}
 
+/*end forms*/
 
 
 /*share icons*/
